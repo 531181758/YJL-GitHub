@@ -16,6 +16,7 @@
 		916895AE1E88BCD8001BB6CA /* CABasicAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 916895AD1E88BCD8001BB6CA /* CABasicAnimationTests.m */; };
 		916895B91E88BCD8001BB6CA /* CABasicAnimationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 916895B81E88BCD8001BB6CA /* CABasicAnimationUITests.m */; };
 		916895CE1E88FB24001BB6CA /* shake_View.m in Sources */ = {isa = PBXBuildFile; fileRef = 916895CD1E88FB24001BB6CA /* shake_View.m */; };
+		91CDCB151E8BB188001E7F69 /* NextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91CDCB141E8BB188001E7F69 /* NextViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		916895BA1E88BCD8001BB6CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		916895CC1E88FB24001BB6CA /* shake_View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = shake_View.h; sourceTree = "<group>"; };
 		916895CD1E88FB24001BB6CA /* shake_View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = shake_View.m; sourceTree = "<group>"; };
+		91CDCB131E8BB188001E7F69 /* NextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NextViewController.h; sourceTree = "<group>"; };
+		91CDCB141E8BB188001E7F69 /* NextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NextViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				916895971E88BCD8001BB6CA /* AppDelegate.m */,
 				916895991E88BCD8001BB6CA /* ViewController.h */,
 				9168959A1E88BCD8001BB6CA /* ViewController.m */,
+				91CDCB131E8BB188001E7F69 /* NextViewController.h */,
+				91CDCB141E8BB188001E7F69 /* NextViewController.m */,
 				9168959C1E88BCD8001BB6CA /* Main.storyboard */,
 				9168959F1E88BCD8001BB6CA /* Assets.xcassets */,
 				916895A11E88BCD8001BB6CA /* LaunchScreen.storyboard */,
@@ -279,6 +284,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91CDCB151E8BB188001E7F69 /* NextViewController.m in Sources */,
 				9168959B1E88BCD8001BB6CA /* ViewController.m in Sources */,
 				916895CE1E88FB24001BB6CA /* shake_View.m in Sources */,
 				916895981E88BCD8001BB6CA /* AppDelegate.m in Sources */,
@@ -518,6 +524,7 @@
 				916895BF1E88BCD8001BB6CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		916895C01E88BCD8001BB6CA /* Build configuration list for PBXNativeTarget "CABasicAnimationTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +533,7 @@
 				916895C21E88BCD8001BB6CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		916895C31E88BCD8001BB6CA /* Build configuration list for PBXNativeTarget "CABasicAnimationUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +542,7 @@
 				916895C51E88BCD8001BB6CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
