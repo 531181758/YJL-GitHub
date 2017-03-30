@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "NextViewController.h"
 //
 #import "shake_View.h"
 
@@ -90,7 +91,11 @@
 }
 -(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
     
-    [self addShakeButton];
+    //跳转到下个页面
+    NextViewController *nextVC = [[NextViewController alloc]init];
+    [self presentViewController:nextVC animated:YES completion:^{
+        NSLog(@"+++++");
+    }];
 }
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
